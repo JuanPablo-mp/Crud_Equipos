@@ -20,10 +20,10 @@ if (isset($_POST['editar'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
+    <title>Editar</title>
 </head>
 <body>
-    <h1> estas en la seccion de editar</h1>
+    <h1> Seccion de editar</h1>
     <form action="" method= "post">
         <label>placa</label><br>
         <input type="text" name="placa" value="<?php echo $registro['placa']; ?>" required><br><br>
