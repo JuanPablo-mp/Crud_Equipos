@@ -1,4 +1,3 @@
-
 <?php
 
 $controlador = new controladorPersona();

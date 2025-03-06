@@ -25,6 +25,15 @@ class controladorPersona{
         return $resultado;
     }
 
+    public function editar ($placa,$marca,$cuentadante,$a_cuentadante){
+        $this->persona->set("placa",$placa);
+        $this->persona->set("Marca",$marca);
+        $this->persona->set("cuentadante",$cuentadante);
+        $this->persona->set("a_cuentadante",$a_cuentadante);
+
+        $this->persona->editar();
+    }
+
     public function crear ($placa,$marca,$cuentadante,$a_cuentadante){
         $this->persona->set("placa",$placa);
         $this->persona->set("Marca",$marca);

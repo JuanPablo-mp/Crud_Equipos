@@ -84,7 +84,7 @@
                 echo "<td>" .$fila["Marca"] . "</td>";
                 echo "<td>" .$fila["cuentadante"] . "</td>";
                 echo "<td>" .$fila["a_cuentadante"] . "</td>";
-                echo "<td><a href='?cargar=ver&id=".$fila["id"]."'>ver</a> <a href='?cargar=crear&id=".$fila["id"]."'>crear</a> <a href='?cargar=eliminar&id=".$fila["id"]."'>eliminar</a></td>";
+                echo "<td><a href='?cargar=ver&id=".$fila["id"]."'>ver</a> <a href='?cargar=crear&id=".$fila["id"]."'>crear</a> <a href='?cargar=eliminar&id=".$fila["id"]."'>eliminar</a> <a href='?cargar=editar&id=".$fila["id"]."'>editar</a> </td>";
                 echo "</tr>";
             }
         ?>

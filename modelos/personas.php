@@ -69,5 +69,11 @@ class persona{
         return $row; 
     }
 
+    public function editar(){
+        $sql="UPDATE equipos SET placa='{$this->placa}', Marca='{$this->Marca}', cuentadante='{$this->cuentadante}', a_cuentadante='{$this->a_cuentadante}' WHERE id='{$this->id}'";
+        echo $sql;
+        $this->con->consultaSimple($sql);
+    }
+
 
 }
